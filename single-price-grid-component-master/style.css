@@ -1,0 +1,112 @@
+*,*::before,*::after{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #E6EFF6;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container{
+  margin-left: 150px;
+  height: 400px;
+  width: 700px;
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+}
+
+.cont1{
+padding-block: 20px;
+padding-inline: 50px;
+background-color: white;
+height: 200px;
+width: 540px;
+background-color: whitesmoke;
+border-radius: 5px 5px 0 0;
+}
+
+.jon{
+  color: hsl(179, 62%, 43%);
+font-weight: 700;
+}
+
+.day{
+  color: hsl(71, 73%, 54%);
+  font-weight: 700;
+}
+
+.gain{
+color: grey;
+}
+
+.cont2{
+display: flex;
+height: 250px;
+width: 540px;
+color: white;
+}
+
+.firs{
+  background-color: #2BB4B1;
+  padding-inline: 20px;
+  padding-block: 20px;
+  height: 210px;
+  width: 270px;
+  border-radius: 0 0 0 5px;
+}
+.month{
+font-weight: 700;
+}
+
+.per{
+  color: lightgrey;
+}
+.per span{
+color: white;
+font-size:30px;
+font-weight: 700;
+}
+
+.full{
+font-size: 14px;
+color: lightgrey;
+}
+
+.firs button{
+background-color: hsl(71, 73%, 54%);
+border: none;
+color: white;
+width: 200px;
+height: 35px;
+border-radius:5px;
+cursor: pointer;
+transition: background-color, transform 0.3s ease-in-out;
+}
+
+button:hover{
+  background-color: greenyellow;
+}
+
+button:active{
+transform: scale(0.90);
+}
+
+.second{
+  background-color: #49BEBD;
+  padding-inline: 30px;
+  padding-block: 10px;
+  width: 300px;
+  height: 210px;
+  border-radius: 0 0 5px 0;
+}
+
+.tutor{
+  color: lightgrey;
+}
+
+
